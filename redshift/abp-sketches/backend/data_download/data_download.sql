@@ -1,8 +1,11 @@
 SELECT
+    /* add traineeID, no names
     abp_trainees.first_name AS trainee_first_name,
     abp_trainees.last_name AS trainee_last_name,
+    /* add raterID, no names
     abp_attendings.first_name AS rater_first_name,
     abp_attendings.last_name AS rater_last_name,
+    /* add programID
     abp_trainees.pgy AS current_pgy,
     abp_trainees.trainee_type,
     abp_reports_assessments.complexity_score,
